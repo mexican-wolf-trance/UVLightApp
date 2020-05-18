@@ -26,6 +26,7 @@
         android:paddingEnd="5dp"
         tools:ignore="RtlSymmetry" />
     <TextView
+        android:id="@+id/uv_index_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

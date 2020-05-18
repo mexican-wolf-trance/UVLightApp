@@ -6,20 +6,16 @@ import edu.charles_wyatt.UVLightChecker.UVDisplay.UVLightDisplayFragment
 
 class MainActivity : AppCompatActivity()
 {
-
-    private lateinit var viewFrag: UVLightDisplayFragment
-
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewFrag = supportFragmentManager.findFragmentById(R.id.framelayout) as UVLightDisplayFragment
+        var viewFrag = supportFragmentManager.findFragmentById(R.id.framelayout) as? UVLightDisplayFragment
         if (viewFrag == null)
-            viewFrag =
-                UVLightDisplayFragment()
+            viewFrag = UVLightDisplayFragment(application)
 
-        if (viewFrag.isAdded)
+        if (!viewFrag.isAdded)
         {
             supportFragmentManager.beginTransaction()
                 .add(R.id.framelayout, viewFrag)

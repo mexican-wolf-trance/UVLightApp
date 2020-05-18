@@ -7,6 +7,6 @@ import kotlinx.android.synthetic.main.uv_light_recycler_list.view.*
 
 class UVLightViewHolder constructor(uvView: View): RecyclerView.ViewHolder(uvView)
 {
-    val valueTextView: TextView = uvView.uv_text_view
+    var valueTextView: TextView = uvView.uv_index_value
     val dateTextView: TextView = uvView.date_value
 }
