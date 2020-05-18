@@ -17,6 +17,7 @@
         android:background="@color/OrangeRed"
         />
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/uv_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/uv_intro"/>
