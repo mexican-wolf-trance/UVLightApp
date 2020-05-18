@@ -5,6 +5,8 @@
     <string name="uv_value"> 10 </string>
     <string name="uv_text_view">The UV Index is: </string>
     <string name="date_uv">On this date: </string>
+    <string name="welcome_message">Welcome to this UV app thingy!</string>
+    <string name="signin_register">Sign in or Register!</string>
 
     //EDIT TEXT HINTS
     <string name="enter_user_name">Enter User Name</string>
@@ -24,5 +26,6 @@
     <string name="pass_word">Password:</string>
     <string name="confirm_password">Confirm Password:</string>
     <string name="submit_btn">Submit</string>
+    <string name="register_dialog">Register</string>
 
 </resources>
