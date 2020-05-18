@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">UVLightChecker</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uv_view_intro">Look! A UV Index!(sample…)</string>
+    <string name="uv_value"> 10 </string>
+    <string name="uv_text_view">The UV Index is: </string>
+    <string name="date_uv">On this date: </string>
 </resources>
